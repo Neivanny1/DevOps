@@ -2,10 +2,11 @@
 ## Step 1:
 Install docker in not installed: https://docs.docker.com/engine/install/
 ## Step 2
-Create a bridge network in Docker using the following docker network create command:
+Create a bridge network in Docker using the following docker network create command: <br>
 RUN:  sudo docker network create jenkins
 ## Step 3
-In order to execute Docker commands inside Jenkins nodes, download and run the docker:dind Docker image using the following docker run command:
+In order to execute Docker commands inside Jenkins nodes, download <br>
+And run the docker:dind Docker image using the following docker run command: <br>
 RUN: sudo docker run \
   --name jenkins-docker \
   --rm \
