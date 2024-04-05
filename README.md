@@ -23,7 +23,7 @@ sudo docker run \
   docker:dind \
   --storage-driver overlay2
 ## step 4
-Create a Dockerfile with the following command:
+Create a Dockerfile with the following command: <br>
 RUN: <br>
 echo '
 FROM jenkins/jenkins:2.440.2-jdk17
