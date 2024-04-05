@@ -22,6 +22,6 @@ A web UI will open up prompting for password
 ## Step 5
 To get the password: <br>
 RUN: <br>
-sudo docker logs -f jenkinServer
+sudo docker exec jenkinServer cat /var/jenkins_home/secrets/initialAdminPassword
 ## Step 6
 Voila Jenkins server in now in your docker
