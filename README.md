@@ -4,11 +4,11 @@ Install docker in not installed: https://docs.docker.com/engine/install/
 ## Step 2
 Pull Jenkins Image for docker hub: <br>
 RUN:<br>
-sudo docker pull jenkins/jenkins:lts
+sudo docker pull jenkins/jenkins:lts-jdk17
 ## Step 3
 Start a jenkins container in background at port 8080 with command:<br>
 RUN: <br>
-sudo docker container run -d --name jenkinServer -p 8080:8080 jenkins/jenkins:lts
+sudo docker container run -d --name jenkinServer -p 8080:8080 jenkins/jenkins:lts-jdk17
 ## step 4
 To access the jenkins server web UI
 <br>
