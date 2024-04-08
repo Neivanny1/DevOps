@@ -8,7 +8,7 @@ RUN:<br>
 ## Step 3
 Start a jenkins container in background at port 8080 with command:<br>
 RUN: <br>
-<strong>sudo docker container run -d --name jenkinServer -p 8080:8080 jenkins/jenkins:lts-jdk17</strong>
+<strong>sudo docker run --rm --name jenkins -p 8080:8080 jenkins/jenkins:lts-jdk17</strong>
 ## step 4
 To access the jenkins server web UI
 <br>
